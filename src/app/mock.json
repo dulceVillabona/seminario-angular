@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Tofu",
+        "sexo": "m",
+        "especie": "gato",
+        "foto": "../../assets/adopciones/tofu.jpg",
+        "edad": "6 meses",
+        "castrado": false
+    },
+    {
+        "nombre": "Lily",
+        "sexo": "f",
+        "especie": "gato",
+        "foto": "../../assets/adopciones/lily.jpeg",
+        "edad": "8 meses",
+        "castrado": true
+    },
+    {
+        "nombre": "Kovu",
+        "sexo": "m",
+        "especie": "perro",
+        "foto": "../../assets/adopciones/kovu.jpg",
+        "edad": "10 meses",
+        "castrado": true
+    },
+    {
+        "nombre": "Daisy",
+        "sexo": "f",
+        "especie": "perro",
+        "foto": "../../assets/adopciones/daisy.jpg",
+        "edad": "4 meses",
+        "castrado": false
+    },
+    {
+        "nombre": "Copito",
+        "sexo": "m",
+        "especie": "gato",
+        "foto": "../../assets/adopciones/copito.jpg",
+        "edad": "2 años",
+        "castrado": true
+    },
+    {
+        "nombre": "Poppy",
+        "sexo": "f",
+        "especie": "perro",
+        "foto": "../../assets/adopciones/poppy.jpg",
+        "edad": "1 año",
+        "castrado": true
+    }
+]

@@ -1,0 +1,21 @@
+<h1>DISPONIBLES PARA ADOPCIÓN</h1><div class="container">
+  
+  <div class="row">
+    <div *ngFor="let adopcion of adopciones" class="col-4">
+      <div class="card card-style">
+        <img
+          [src]="adopcion.foto"
+          class="card-img-top img-style"
+          [alt]="adopcion.nombre"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ adopcion.nombre }}</h5>
+          <div class="card-text">
+            <p>{{ adopcion.edad }}</p>
+            <p *ngIf="adopcion.castrado">Castrado/a</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

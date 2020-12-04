@@ -1,0 +1,20 @@
+h2 {
+    margin: 60px 0 30px 50px;
+}
+
+.toast-notification {
+    justify-self: flex-end;
+    left: 0;
+    width: 500px;
+    margin: 20px auto;
+    height: 70px;
+    background-color: #ffdada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toast-notification p {
+    margin: 0;
+    align-self: center;
+}
