@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faCat, faDog } from '@fortawesome/free-solid-svg-icons';
+import { faCat, faDog, faVenus, faMars } from '@fortawesome/free-solid-svg-icons';
 
 import { Animal } from '../Animal';
 import { AdopcionesDataService } from '../adopciones-data.service';
@@ -14,6 +14,8 @@ export class AdoptionListComponent implements OnInit {
   adopciones: Animal[] = [];
   faCat = faCat;
   faDog = faDog;
+  faVenus = faVenus;
+  faMars = faMars;
 
   constructor(private adopcionesDataService: AdopcionesDataService) {
   }

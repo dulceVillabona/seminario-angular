@@ -13,9 +13,16 @@ h1 {
   margin: 40px 0;
 }
 
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 fa-icon {
   font-size: 40px;
-  position: absolute;
-  bottom: 5px;
-  right: 20px;
+}
+
+.text-style {
+  height: 40%;
 }
