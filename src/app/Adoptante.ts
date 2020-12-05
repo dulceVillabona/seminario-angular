@@ -1,5 +1,5 @@
 export interface Adoptante {
-    nombre: String,
-    email: String,
-    animal: String
+    nombre: string,
+    email: string,
+    animal: string
 }

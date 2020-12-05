@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faCat, faDog } from '@fortawesome/free-solid-svg-icons';
+
 import { Animal } from '../Animal';
 import { AdopcionesDataService } from '../adopciones-data.service';
 
@@ -10,16 +12,15 @@ import { AdopcionesDataService } from '../adopciones-data.service';
 export class AdoptionListComponent implements OnInit {
 
   adopciones: Animal[] = [];
+  faCat = faCat;
+  faDog = faDog;
 
   constructor(private adopcionesDataService: AdopcionesDataService) {
   }
 
   ngOnInit(): void {
     this.adopcionesDataService.getAnimals()
-    .subscribe(adopciones => {
-      this.adopciones = adopciones
-      console.log(this.adopciones)
-    });
+      .subscribe(adopciones => this.adopciones = adopciones);
   }
 
 }

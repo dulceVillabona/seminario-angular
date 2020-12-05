@@ -1,1 +1,9 @@
-<p>store-page works!</p>
+<h1>TIENDA SOLIDARIA</h1>
+<p>
+  Gracias a tu compra podemos seguir ayudando a callejeros a encontrar una
+  familia!
+</p>
+<div class="container">
+    <store-table (agregarAlCarrito)="agregarAlCarrito($event)">...Loading</store-table>
+    <store-cart [carrito]="carrito" [total]="total">...Loading</store-cart>
+</div>

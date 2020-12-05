@@ -1,9 +1,9 @@
 export interface Animal {
-    id: Number,
-    nombre: String,
-    sexo: String,
-    especie: String,
-    foto: String,
-    edad: String,
-    castrado: Boolean
+    id: number,
+    nombre: string,
+    sexo: string,
+    especie: string,
+    foto: string,
+    edad: string,
+    castrado: boolean
 }

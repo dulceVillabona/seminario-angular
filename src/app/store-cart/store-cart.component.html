@@ -1,0 +1,13 @@
+<h2>Carrito</h2>
+<p *ngIf="carrito.length === 0">Tu carrito está vacio</p>
+<div class="container" *ngIf="carrito.length !== 0">
+  <div class="product-container" *ngFor="let producto of carrito">
+    <p>{{ producto.cantidad }}</p>
+    <p>{{ producto.nombre }}</p>
+    <p>{{ producto.precio * producto.cantidad | currency }}</p>
+  </div>
+  <div class="total">
+    <p>Total:</p>
+    <p>{{ total | currency }}</p>
+  </div>
+</div>

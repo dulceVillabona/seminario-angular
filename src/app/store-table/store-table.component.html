@@ -1,0 +1,20 @@
+<h2>Productos</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Producto</th>
+      <th scope="col">Precio</th>
+      <th scope="col">Stock</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let producto of productos">
+      <td>{{ producto.nombre }}</td>
+      <td>{{ producto.precio | currency}}</td>
+      <td>{{ producto.stock }}</td>
+      <td>
+        <button class="btn btn-light bg-pink" (click)="agregar(producto.id)" [disabled]="producto.stock === 0"> Comprar </button>
+      </td>
+    </tr>
+  </tbody>
+</table>

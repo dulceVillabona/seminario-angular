@@ -14,6 +14,8 @@
             <p>{{ adopcion.edad }}</p>
             <p *ngIf="adopcion.castrado">Castrado/a</p>
           </div>
+          <fa-icon *ngIf="adopcion.especie == 'gato'" [icon]="faCat"></fa-icon>
+          <fa-icon *ngIf="adopcion.especie == 'perro'" [icon]="faDog"></fa-icon>
         </div>
       </div>
     </div>
